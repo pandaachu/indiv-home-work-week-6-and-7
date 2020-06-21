@@ -1,0 +1,12 @@
+[data-aos="text-spacing"] {
+  // 預設的樣式
+  opacity: 0;
+  letter-spacing: 5px;
+  transition-property: letter-spacing, opacity;
+  
+  // 觸發時的樣式
+  &.aos-animate {
+    opacity: 1;
+    letter-spacing: 0;
+  }
+}

@@ -9,20 +9,18 @@
 @import "base/typography";
 
 // components
+@import "components/product-card";
 
 // // layout
-// @import "layout/navbar";
-// @import "layout/footer";
+@import "layout/footer";
 
 // // pages
-// @import "pages/index";
-// @import "pages/faq";
+@import "pages/index";
 
 // // utilities
-// @import "utilities/background";
-// @import "utilities/border";
-// @import "utilities/position";
-// @import "utilities/photo-effect";
+@import "utilities/background";
+@import "utilities/position";
+@import "utilities/animation";
 
 
 

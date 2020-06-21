@@ -1,3 +1,6 @@
-$(document).ready(() => {
-  console.log('Hello Bootstrap4');
-});
+
+  AOS.init({
+    delay: 80,
+    duration: 1500,
+    anchorPlacement: 'top-center',
+  });
