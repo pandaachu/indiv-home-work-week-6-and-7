@@ -1,6 +1,7 @@
 "use strict";
 
-$(document).ready(function () {
-  console.log('Hello Bootstrap4');
+AOS.init({
+  delay: 80,
+  duration: 1500
 });
 //# sourceMappingURL=all.js.map

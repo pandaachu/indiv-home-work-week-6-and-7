@@ -11633,4 +11633,17 @@ html {
   }
 }
 
+[data-aos="text-spacing"] {
+  opacity: 0;
+  letter-spacing: 5px;
+  -webkit-transition-property: letter-spacing, opacity;
+  -o-transition-property: letter-spacing, opacity;
+  transition-property: letter-spacing, opacity;
+}
+
+[data-aos="text-spacing"].aos-animate {
+  opacity: 1;
+  letter-spacing: 0;
+}
+
 /*# sourceMappingURL=all.css.map */
