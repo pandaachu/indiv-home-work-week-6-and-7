@@ -1,0 +1,14 @@
+// remove text-decoration
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+svg {
+  width: 100%;
+}
